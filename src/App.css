@@ -1,0 +1,84 @@
+/* App.css */
+:root {
+    --background-color: #1a1a2e; /* Dark background */
+    --primary-color: #16213e; /* Darker shade for elements */
+    --text-color: #e8e8e8; /* Light text color */
+    --accent-color: #0f3460; /* Accent color for buttons */
+    --gray-600: #4B5563; /* Gray for scrollbars */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.dark:hover {
+    scrollbar-color: var(--gray-600) transparent;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--gray-600);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--gray-500); /* Slightly lighter on hover */
+}
+
+@media (min-width: 768px) {
+    .md\:px-5 {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+    .md\:px-4 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.py-\[18px\] {
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
+
+.px-3 {
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.copy-button {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 0.5rem 1rem;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.copy-button:hover {
+    background-color: #0e2d4c; /* Darker shade on hover */
+}
