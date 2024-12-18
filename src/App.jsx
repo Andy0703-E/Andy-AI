@@ -66,7 +66,7 @@ function App() {
   return (
     <main className="flex flex-col min-h-screen justify-between items-center bg-primary-color rounded-lg p-4">
       <header className="w-full bg-gradient-to-r py-6 rounded-lg flex items-center px-6 justify-center md:justify-start">
-        <h1 className="text-4xl text-white font-semibold tracking-wider text-shadow animate-pulse">
+        <h1 className="text-4xl text-center text-white font-semibold tracking-wider text-shadow animate-pulse">
           <span className="text-blue-400">ANDY</span> <span className="text-pink-400">AI</span>
         </h1>
       </header>
